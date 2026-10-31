@@ -5,7 +5,7 @@ La collecte quotidienne remplace UNIQUEMENT :
 - la valeur de l'indice : id "indice-valeur" ; son explication : id "indice-explication"
 - les lignes du panier : id "tableau-panier" (régénérer les <tr> à partir des médianes)
 - en cas de bascule du signal : id "signal-card" → classe "signal-wait" au lieu de "signal-buy", textes et § mis à jour
-Tout le reste (styles, structure, logo, balise google-site-verification) reste inchangé.
+Tout le reste (styles, structure, logo, balise google-site-verification, lien vers acheter-ram.html) reste inchangé.
 -->
 <!DOCTYPE html>
 <html lang="fr">
@@ -27,7 +27,6 @@ body{
   background:#0a0f1e;color:var(--ink);line-height:1.65;
   min-height:100vh;overflow-x:hidden;
 }
-/* — halo colorés en fond (le "liquide" du verre dépoli) — */
 .orb{position:fixed;border-radius:50%;filter:blur(90px);z-index:-2;pointer-events:none}
 .orb1{width:46vmax;height:46vmax;background:#2563eb;opacity:.32;top:-14vmax;left:-10vmax}
 .orb2{width:38vmax;height:38vmax;background:#7c3aed;opacity:.30;top:24%;right:-12vmax}
@@ -36,10 +35,7 @@ body{
 .orb1{animation:drift 26s ease-in-out infinite alternate}
 .orb3{animation:drift 22s ease-in-out infinite alternate-reverse}
 @media (prefers-reduced-motion: reduce){.orb1,.orb3{animation:none}}
-
 .wrap{max-width:780px;margin:0 auto;padding:44px 22px 40px}
-
-/* — verre dépoli — */
 .glass{
   background:linear-gradient(160deg,rgba(255,255,255,.10),rgba(255,255,255,.045));
   -webkit-backdrop-filter:blur(16px) saturate(160%);
@@ -48,8 +44,6 @@ body{
   border-radius:24px;
   box-shadow:0 10px 34px rgba(2,6,23,.45), inset 0 1px 0 rgba(255,255,255,.14);
 }
-
-/* — en-tête — */
 header{margin-bottom:26px}
 .brand{display:flex;align-items:center;gap:12px;margin-bottom:18px}
 .pill{
@@ -62,8 +56,6 @@ h1{font-size:clamp(1.9rem,6vw,2.5rem);font-weight:800;letter-spacing:-.025em;
    background:linear-gradient(95deg,#eef2fb 30%,var(--blue) 70%,var(--violet));
    -webkit-background-clip:text;background-clip:text;color:transparent}
 .tagline{color:var(--muted);margin-top:6px;font-size:1.02rem;max-width:56ch}
-
-/* — héros indice — */
 .hero{padding:30px 28px;margin-bottom:18px}
 .hero .label{color:var(--muted);font-size:.86rem;text-transform:uppercase;letter-spacing:.09em;font-weight:600}
 .hero .value{
@@ -75,8 +67,6 @@ h1{font-size:clamp(1.9rem,6vw,2.5rem);font-weight:800;letter-spacing:-.025em;
 .hero .explanation{margin-top:10px;font-size:.97rem;color:var(--ink)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .chip{font-size:.74rem;font-weight:600;color:var(--muted);padding:4px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.04)}
-
-/* — carte signal — */
 .signal{padding:24px 28px;margin-bottom:18px;position:relative;overflow:hidden}
 .signal::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
   background:radial-gradient(220px 90px at 8% 0%,rgba(52,211,153,.18),transparent 70%)}
@@ -87,8 +77,6 @@ h1{font-size:clamp(1.9rem,6vw,2.5rem);font-weight:800;letter-spacing:-.025em;
 .sig-buy{color:#0a0f1e;background:var(--green);font-weight:700;font-size:.8rem;padding:5px 13px;border-radius:999px}
 .sig-wait{color:#0a0f1e;background:var(--amber);font-weight:700;font-size:.8rem;padding:5px 13px;border-radius:999px}
 .signal p{margin-top:12px;font-size:.93rem}
-
-/* — panier — */
 h2{font-size:1.18rem;font-weight:700;letter-spacing:-.01em;margin:30px 4px 12px}
 .table-card{overflow:hidden;border-radius:22px}
 table{width:100%;border-collapse:collapse}
@@ -98,15 +86,12 @@ tbody tr:last-child td{border-bottom:none}
 tbody tr:hover{background:rgba(255,255,255,.035)}
 td.num{font-variant-numeric:tabular-nums;font-weight:600}
 td .cat-sub{display:block;font-size:.76rem;color:var(--muted);font-weight:400}
-
-/* — pourquoi — */
 .why{padding:20px 24px;margin-top:18px}
 .why strong{display:block;margin-bottom:8px}
 .why ul{margin-left:19px}
 .why li{margin-bottom:6px;font-size:.93rem}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
-
 footer{
   margin-top:34px;padding:18px 22px;color:var(--muted);font-size:.8rem;border-radius:18px;
 }
@@ -170,7 +155,8 @@ footer .sep{opacity:.4;margin:0 6px}
   <strong>Pourquoi ce site existe</strong>
   <ul>
     <li>Les boutiques et blogs affiliés concluent presque toujours « achetez maintenant ». Ici, la règle est publique, mécanique, et peut conclure « attendez ».</li>
-    <li>Méthodologie complète et journal des versions : <a href="METHODOLOGIE.md">METHODOLOGIE.md</a>. Données du jour : <a href="data/2026-10-31.json">relevé brut</a>.</li>
+    <li><li>Méthodologie complète et journal des versions : <a href="METHODOLOGIE.md">METHODOLOGIE.md</a>. Données du jour : <a href="data/2026-10-31.json">relevé brut</a>.</li></li>
+    <li><li>Guide : <a href="acheter-ram.html">Faut-il acheter sa RAM maintenant ?</a> — notre verdict neutre, situation par situation.</li></li>
     <li>Relevés actualisés chaque jour par une machine. Sources citées à chaque relevé.</li>
   </ul>
 </section>
