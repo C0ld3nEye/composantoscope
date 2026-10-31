@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Composantoscope — baromètre neutre des composants PC (France)</title>
+<meta name="description" content="Composantoscope : indice neutre et automatique des prix des composants PC en France (RAM, GPU, SSD). Règles publiques, signal acheter ou attendre.">
+<style>
+:root{--bg:#0d1117;--card:#161b22;--ink:#e6edf3;--muted:#8b949e;--accent:#58a6ff;--bad:#f85149;--good:#3fb950;--warn:#d29922}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:32px 20px}
+header h1{font-size:2rem;letter-spacing:-.02em}
+header p.tagline{color:var(--muted);margin:6px 0 24px}
+.badge{display:inline-block;font-size:.78rem;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:2px 10px;margin-bottom:16px}
+.indice-hero{background:var(--card);border:1px solid #30363d;border-radius:12px;padding:24px;margin-bottom:20px}
+.indice-hero .value{font-size:3.4rem;font-weight:800;color:var(--accent)}
+.indice-hero .label{color:var(--muted);font-size:.9rem}
+.indice-hero .explanation{margin-top:8px;font-size:.95rem}
+.signal{border-radius:12px;padding:20px;margin-bottom:20px;border:1px solid}
+.signal.buy{background:rgba(63,185,80,.08);border-color:var(--good)}
+.signal-title{font-weight:700;font-size:1.15rem;color:var(--good)}
+.signal-sub{font-weight:700;color:var(--warn);margin-top:4px}
+.signal p{margin-top:10px;font-size:.92rem;color:var(--ink)}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden;margin-bottom:20px}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid #30363d;font-size:.92rem}
+th{color:var(--muted);font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
+td.num{font-variant-numeric:tabular-nums}
+h2{font-size:1.25rem;margin:28px 0 12px}
+.neutral{background:var(--card);border:1px solid #30363d;border-radius:12px;padding:18px 20px;margin-bottom:20px;font-size:.95rem}
+ul{margin:0 0 8px 20px}
+footer{color:var(--muted);font-size:.82rem;margin-top:36px;border-top:1px solid #30363d;padding-top:16px}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<span class="badge">Média automatisé &#183; règles publiques &#183; indépendant</span>
+<h1>Composantoscope</h1>
+<p class="tagline">Baromètre neutre des prix des composants PC en France. Ce site ne vend rien : il peut donc dire « attendez ».</p>
+</header>
+
+<div class="indice-hero">
+<div class="label">Indice RAM DDR5 32 Go &#183; base 100 = septembre 2025</div>
+<div class="value">375</div>
+<div class="explanation">La médiane d'un kit DDR5 32 Go vaut 3,75 fois son prix de septembre 2025. Relevé du 31/10/2026.</div>
+</div>
+
+<div class="signal buy">
+<div class="signal-title">BESOIN RÉEL &#8594; ACHETER MAINTENANT</div>
+<div class="signal-sub">Pas de besoin urgent &#8594; ATTENDRE</div>
+<p>Contrats DRAM prévus en hausse de 10 à 15 % au T4 2026 (TrendForce) ; SK hynix annonce une trajectoire haussière au moins jusqu'en 2027. Un trimestre d'attente = un trimestre plus cher, sauf si votre machine suffit encore.</p>
+</div>
+
+<h2>Panier relevé — 31 octobre 2026</h2>
+<table>
+<tr><th>Catégorie</th><th>Médiane</th><th>&#8364;/Go</th><th>Références</th></tr>
+<tr><td>DDR5 32 Go</td><td class="num">473,00 &#8364;</td><td class="num">14,78 &#8364;</td><td>3</td></tr>
+<tr><td>DDR5 16 Go</td><td class="num">239,99 &#8364;</td><td class="num">15,00 &#8364;</td><td>3</td></tr>
+<tr><td>DDR4 32 Go</td><td class="num">256,00 &#8364;</td><td class="num">8,00 &#8364;</td><td>3</td></tr>
+<tr><td>DDR4 16 Go</td><td class="num">100,99 &#8364;</td><td class="num">6,31 &#8364;</td><td>3</td></tr>
+</table>
+
+<div class="neutral">
+<strong>Pourquoi ce site existe</strong>
+<ul>
+<li>Les boutiques et blogs affiliés concluent presque toujours « achetez maintenant ». Ici, la règle est publique, mécanique, et peut conclure « attendez ».</li>
+<li>Méthodologie complète et journal des versions : <a href="METHODOLOGIE.md">METHODOLOGIE.md</a>. Données du jour : <a href="data/2026-10-31.json">relevé brut</a>.</li>
+<li>Relevés actualisés chaque jour par une machine. Sources citées à chaque relevé.</li>
+</ul>
+</div>
+
+<footer>
+Composantoscope &#183; site indépendant sans boutique &#183; informations indicatives, pas un conseil d'achat garanti.<br>
+Sources du relevé : ramradar.fr (31/10/2026) ; base de l'indice : kit DDR5-6000 32 Go à 126 &#8364; en septembre 2025 (relevé documenté, presse FR).
+</footer>
+</div>
+</body>
+</html>
