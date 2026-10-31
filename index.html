@@ -88,8 +88,9 @@ td.num{font-variant-numeric:tabular-nums;font-weight:600}
 td .cat-sub{display:block;font-size:.76rem;color:var(--muted);font-weight:400}
 .why{padding:20px 24px;margin-top:18px}
 .why strong{display:block;margin-bottom:8px}
-.why ul{margin-left:19px}
-.why li{margin-bottom:6px;font-size:.93rem}
+.why ul{list-style:none;margin-left:0;padding-left:2px}
+.why li{margin-bottom:0;font-size:.93rem;padding:8px 0;border-bottom:1px solid var(--line)}
+.why li:last-child{border-bottom:none;padding-bottom:2px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 footer{
@@ -155,8 +156,8 @@ footer .sep{opacity:.4;margin:0 6px}
   <strong>Pourquoi ce site existe</strong>
   <ul>
     <li>Les boutiques et blogs affiliés concluent presque toujours « achetez maintenant ». Ici, la règle est publique, mécanique, et peut conclure « attendez ».</li>
-    <li><li>Méthodologie complète et journal des versions : <a href="METHODOLOGIE.md">METHODOLOGIE.md</a>. Données du jour : <a href="data/2026-10-31.json">relevé brut</a>.</li></li>
-    <li><li>Guide : <a href="acheter-ram.html">Faut-il acheter sa RAM maintenant ?</a> — notre verdict neutre, situation par situation.</li></li>
+    <li>Méthodologie complète et journal des versions : <a href="METHODOLOGIE.md">METHODOLOGIE.md</a>. Données du jour : <a href="data/2026-10-31.json">relevé brut</a>.</li>
+    <li>Guide : <a href="acheter-ram.html">Faut-il acheter sa RAM maintenant ?</a> — notre verdict neutre, situation par situation.</li>
     <li>Relevés actualisés chaque jour par une machine. Sources citées à chaque relevé.</li>
   </ul>
 </section>
