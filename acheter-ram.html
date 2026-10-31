@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faut-il acheter sa RAM maintenant ? — Verdict neutre (nov. 2026) | Composantoscope</title>
+<meta name="description" content="Prix DDR5 et DDR4, indice, prévisions : le verdict neutre et mécanique de Composantoscope pour savoir si vous devez acheter votre RAM maintenant ou attendre.">
+<style>
+:root{
+  --ink:#eef2fb; --muted:#9aa7bd; --line:rgba(255,255,255,.09);
+  --blue:#7dd3fc; --violet:#a78bfa; --teal:#34d399; --amber:#fbbf24; --green:#34d399;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#0a0f1e;color:var(--ink);line-height:1.65;min-height:100vh;overflow-x:hidden}
+.orb{position:fixed;border-radius:50%;filter:blur(90px);z-index:-2;pointer-events:none}
+.orb1{width:46vmax;height:46vmax;background:#2563eb;opacity:.32;top:-14vmax;left:-10vmax}
+.orb2{width:38vmax;height:38vmax;background:#7c3aed;opacity:.30;top:24%;right:-12vmax}
+.orb3{width:34vmax;height:34vmax;background:#14b8a6;opacity:.22;bottom:-12vmax;left:28%}
+@keyframes drift{from{transform:translate(0,0) scale(1)}to{transform:translate(3vmax,2vmax) scale(1.06)}}
+.orb1{animation:drift 26s ease-in-out infinite alternate}
+.orb3{animation:drift 22s ease-in-out infinite alternate-reverse}
+@media (prefers-reduced-motion: reduce){.orb1,.orb3{animation:none}}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 40px}
+.glass{
+  background:linear-gradient(160deg,rgba(255,255,255,.10),rgba(255,255,255,.045));
+  -webkit-backdrop-filter:blur(16px) saturate(160%);backdrop-filter:blur(16px) saturate(160%);
+  border:1px solid rgba(255,255,255,.13);border-radius:24px;
+  box-shadow:0 10px 34px rgba(2,6,23,.45), inset 0 1px 0 rgba(255,255,255,.14);
+}
+header{margin-bottom:26px}
+.brand{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+a.back{color:var(--muted);font-size:.85rem;text-decoration:none}
+a.back:hover{color:var(--blue)}
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;color:var(--blue);padding:6px 14px;border-radius:999px;background:rgba(125,211,252,.08);border:1px solid rgba(125,211,252,.25)}
+h1{font-size:clamp(1.7rem,5.5vw,2.3rem);font-weight:800;letter-spacing:-.025em;margin-bottom:8px}
+.dateline{color:var(--muted);font-size:.85rem}
+h2{font-size:1.18rem;font-weight:700;margin:30px 4px 12px}
+p{margin-bottom:12px;font-size:.96rem}
+.hero{padding:24px 28px;margin-bottom:6px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(220px 90px at 8% 0%,rgba(52,211,153,.18),transparent 70%)}
+.sig-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.sig-buy{color:#0a0f1e;background:var(--green);font-weight:700;font-size:.8rem;padding:5px 13px;border-radius:999px}
+.sig-wait{color:#0a0f1e;background:var(--amber);font-weight:700;font-size:.8rem;padding:5px 13px;border-radius:999px}
+.chiffres{padding:20px 24px;margin-bottom:14px}
+.chiffres ul{margin-left:19px}
+.chiffres li{margin-bottom:8px;font-size:.94rem}
+.big{font-weight:800;color:var(--teal)}
+table{width:100%;border-collapse:collapse}
+.table-card{overflow:hidden;border-radius:22px;margin-bottom:14px}
+th,td{padding:12px 18px;text-align:left;border-bottom:1px solid var(--line);font-size:.92rem}
+thead th{color:var(--muted);font-weight:600;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em}
+tbody tr:last-child td{border-bottom:none}
+td.num{font-variant-numeric:tabular-nums;font-weight:600}
+.cases{padding:20px 24px;margin-bottom:14px}
+.cases strong{display:block;margin-bottom:8px}
+.cases ul{margin-left:19px}
+.cases li{margin-bottom:9px;font-size:.94rem}
+.cases b{color:var(--blue)}
+.faq{padding:20px 24px;margin-bottom:14px}
+.faq dt{font-weight:700;margin-top:12px;font-size:.95rem}
+.faq dd{margin:4px 0 0 0;font-size:.93rem;color:var(--ink)}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+footer{margin-top:34px;padding:18px 22px;color:var(--muted);font-size:.8rem;border-radius:18px}
+</style>
+</head>
+<body>
+<div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div>
+
+<div class="wrap">
+
+<header>
+  <div class="brand">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M4 16a8 8 0 1 1 16 0" stroke="url(#g)" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M12 16l4.4-4.4" stroke="#eef2fb" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="12" cy="16" r="1.7" fill="#eef2fb"/>
+      <defs><linearGradient id="g" x1="4" y1="24" x2="20" y2="0"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+    </svg>
+    <div class="pill"><span style="width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 10px var(--teal)"></span>Composantoscope</div>
+  </div>
+  <a class="back" href="index.html">← Retour à l'indice</a>
+  <h1>Faut-il acheter sa RAM maintenant ?</h1>
+  <p class="dateline">Guide neutre · 31 octobre 2026 · mis à jour à chaque changement de signal</p>
+</header>
+
+<section class="hero glass">
+  <div class="sig-row">
+    <span class="sig-buy">BESOIN RÉEL → ACHETER MAINTENANT</span>
+    <span class="sig-wait">PAS DE BESOIN URGENT → ATTENDRE</span>
+  </div>
+  <p style="margin-top:12px">La réponse dépend de votre situation, pas d'une opinion. Ce guide applique la règle publique de Composantoscope aux données du 31 octobre 2026. Il ne vend rien : contrairement aux guides de boutiques, il peut vous dire d'attendre.</p>
+</section>
+
+<h2>Les prix aujourd'hui</h2>
+<section class="glass table-card">
+<table>
+  <thead><tr><th>Catégorie</th><th>Médiane</th><th>€ / Go</th></tr></thead>
+  <tbody>
+    <tr><td>DDR5 32 Go</td><td class="num">473,00 €</td><td class="num">14,78 €</td></tr>
+    <tr><td>DDR5 16 Go</td><td class="num">239,99 €</td><td class="num">15,00 €</td></tr>
+    <tr><td>DDR4 32 Go</td><td class="num">256,00 €</td><td class="num">8,00 €</td></tr>
+    <tr><td>DDR4 16 Go</td><td class="num">100,99 €</td><td class="num">6,31 €</td></tr>
+  </tbody>
+</table>
+</section>
+<p style="font-size:.85rem;color:var(--muted)">Médianes des meilleures offres relevées le 31/10/2026 (source : ramradar.fr). L'indice RAM DDR5 32 Go de Composantoscope s'établit à <b style="color:var(--teal)">375</b> — un kit 32 Go vaut 3,75 fois son prix de septembre 2025.</p>
+
+<h2>La crise en 5 chiffres</h2>
+<section class="glass chiffres">
+<ul>
+  <li><span class="big">+171,8 %</span> — la hausse des prix de la DRAM en un an, mesurée fin 2025 (GinjFo).</li>
+  <li><span class="big">×4,3</span> — un kit DDR5-6000 32 Go est passé de 126 € (septembre 2025) à 540 € (juillet 2026), d'après les relevés documentés de la presse française.</li>
+  <li><span class="big">+782 %</span> — la progression du bénéfice d'exploitation de Samsung au T3 2026 (AFP) : les fabricants n'ont aucun intérêt à desserrer l'offre.</li>
+  <li><span class="big">+10 à 15 %</span> — la hausse prévue des prix contractuels DRAM au T4 2026 (TrendForce) : les barèmes qui remonteront vers les rayons dans les mois qui viennent.</li>
+  <li><span class="big">2027</span> — SK hynix annonce une trajectoire haussière « au moins jusqu'en 2027 » (AFP, 27 octobre 2026).</li>
+</ul>
+</section>
+
+<h2>La règle, pas l'opinion</h2>
+<p>Composantoscope publie une règle mécanique : tant que les prévisions contractuelles sont à la hausse, un trimestre d'attente est un trimestre plus cher — <b>sauf si votre machine suffit déjà</b>. Le signal basculera vers « attendez pour tous » le jour où la tendance des prix en magasin sur 30 jours deviendra négative ET que la prochaine prévision contractuelle sera stable ou baissière. Tout est détaillé dans la <a href="METHODOLOGIE.md">méthodologie publique</a>, et toute bascule sera expliquée chiffres à l'appui.</p>
+
+<h2>Verdict par situation</h2>
+<section class="glass cases">
+<ul>
+  <li><b>Votre PC fonctionne et vous avez assez de RAM</b> → <span style="color:var(--amber);font-weight:700">attendez</span>. La crise des prix n'a aucun impact sur une machine qui tourne ; chaque mois d'attente rapproche de la fin de pénurie (consensus : fin 2027 – 2028).</li>
+  <li><b>Vous assemblez un PC neuf (besoin réel)</b> → <span style="color:var(--teal);font-weight:700">achetez maintenant</span>. Les contrats prévoient encore +10 à 15 % au T4 2026 : attendre « une baisse » à court terme va contre toutes les prévisions publiées.</li>
+  <li><b>Vous montez ou améliorez en DDR4</b> → <span style="color:var(--teal);font-weight:700">achetez ce qu'il vous faut</span>. Le DDR4 est nettement moins touché : 6 à 8 €/Go contre 14 à 15 €/Go en DDR5. Ne basculez pas vers la DDR5 au prix actuel sans nécessité.</li>
+  <li><b>Vous visez un portable (SO-DIMM)</b> → vérifiez la compatibilité et comparez : une barrette DDR5 16 Go SO-DIMM tourne autour de 240 € ; la capacité adéquate vaut parfois mieux que le maximum.</li>
+</ul>
+</section>
+
+<h2>Questions fréquentes</h2>
+<section class="glass faq">
+<dl>
+  <dt>Quand les prix de la RAM vont-ils redescendre ?</dt>
+  <dd>Le consensus professionnel place la fin de la pénurie entre fin 2027 et 2028. Aucune source sérieuse n'annonce de baisse avant : les prévisions contractuelles restent à la hausse pour le T4 2026 et au-delà.</dd>
+  <dt>16 ou 32 Go ?</dt>
+  <dd>32 Go est devenu le standard confortable en DDR5, mais au prix actuel, 16 Go bien choisis couvrent largement le jeu et le bureau. La différence (≈ 233 € aujourd'hui) achète souvent mieux ailleurs (SSD, ventilateur).</dd>
+  <dt>Pourquoi faire confiance à ce guide ?</dt>
+  <dd>Parce que Composantoscope ne vend aucune mémoire, n'est affilié à aucune boutique au moment de la rédaction, et publie la règle qu'il applique. Quand il dit « attendez », il n'y perd rien.</dd>
+</dl>
+</section>
+
+<footer class="glass">
+  Guide Composantoscope · 31/10/2026 · informations indicatives, pas un conseil d'achat garanti.<br>
+  Données et règle : <a href="index.html">l'indice du jour</a> · <a href="METHODOLOGIE.md">méthodologie</a> · <a href="data/2026-10-31.json">relevé brut</a>.
+</footer>
+
+</div>
+</body>
+</html>
