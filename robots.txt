@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://c0ld3neye.github.io/composantoscope/sitemap.xml
