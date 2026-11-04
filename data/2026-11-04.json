@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-04",
+  "source": "ramradar.fr (comparateur public)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "Corsair DDR5 6400 32Go (2x16)",
+        "prix": 499
+      },
+      {
+        "nom": "Kingston DDR5 5600 32Go (1x32)",
+        "prix": 499.99
+      },
+      {
+        "nom": "Patriot DDR5 5600 32Go (2x16)",
+        "prix": 504
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Silicon Power DDR5 5600 16Go (1x16)",
+        "prix": 232
+      },
+      {
+        "nom": "ADATA DDR5 16Go (1x16)",
+        "prix": 238.99
+      },
+      {
+        "nom": "Crucial DDR5 16Go (1x16) SO-DIMM",
+        "prix": 239.75
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "Corsair DDR4 3200 32Go (4x8)",
+        "prix": 217.99
+      },
+      {
+        "nom": "Crucial DDR4 3200 32Go (1x32)",
+        "prix": 259.9
+      },
+      {
+        "nom": "Crucial DDR4 3200 32Go (2x16)",
+        "prix": 259.9
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400 16Go (2x8)",
+        "prix": 65.04
+      },
+      {
+        "nom": "Kingston DDR4 3200 16Go (2x8)",
+        "prix": 108.37
+      },
+      {
+        "nom": "DDR4 2666 16Go (1x16)",
+        "prix": 115
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 499.99,
+    "DDR5_16Go": 238.99,
+    "DDR4_32Go": 259.9,
+    "DDR4_16Go": 108.37
+  },
+  "euroParGo": {
+    "DDR5_32Go": 15.62,
+    "DDR5_16Go": 14.94,
+    "DDR4_32Go": 8.12,
+    "DDR4_16Go": 6.77
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 397,
+    "baseline_eur": 126,
+    "variation_vs_veille": 25,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 3,97 fois son prix de septembre 2025."
+  },
+  "note": "Relevé sur la liste principale ramradar.fr (tri par défaut) ; seules les 3 meilleures offres visibles par catégorie sont retenues. La page ne paginait pas via l'URL ce jour."
+}
