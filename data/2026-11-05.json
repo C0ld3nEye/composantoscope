@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-05",
+  "source": "ramradar.fr (comparateur public)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "Corsair DDR5 6000 32Go (2x16Go)",
+        "prix": 466
+      },
+      {
+        "nom": "Patriot DDR5 5600 32Go (2x16Go)",
+        "prix": 504
+      },
+      {
+        "nom": "Corsair DDR5 6000 CL38 32Go (2x16Go)",
+        "prix": 509
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Silicon Power DDR5 5600 16Go (1x16Go)",
+        "prix": 230.99
+      },
+      {
+        "nom": "ADATA DDR5 16Go (1x16Go)",
+        "prix": 238.99
+      },
+      {
+        "nom": "Crucial DDR5 16Go (1x16Go) SO-DIMM",
+        "prix": 239.75
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "Kingston DDR4 3200 32Go (1x32Go)",
+        "prix": 128.83
+      },
+      {
+        "nom": "Corsair DDR4 3200 32Go (4x8Go)",
+        "prix": 217.99
+      },
+      {
+        "nom": "Crucial DDR4 3200 32Go (2x16Go)",
+        "prix": 259.9
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400 16Go (2x8Go)",
+        "prix": 65.04
+      },
+      {
+        "nom": "DDR4 2666 16Go (1x16Go)",
+        "prix": 118
+      },
+      {
+        "nom": "Crucial DDR4 3200 16Go (2x8Go) SO-DIMM",
+        "prix": 123.96
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 504,
+    "DDR5_16Go": 238.99,
+    "DDR4_32Go": 217.99,
+    "DDR4_16Go": 118
+  },
+  "euroParGo": {
+    "DDR5_32Go": 15.75,
+    "DDR5_16Go": 14.94,
+    "DDR4_32Go": 6.81,
+    "DDR4_16Go": 7.38
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 400,
+    "baseline_eur": 126,
+    "variation_vs_veille": 3,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 4,00 fois son prix de septembre 2025."
+  },
+  "signal": {
+    "regle": "besoin réel → acheter maintenant ; pas de besoin urgent → attendre",
+    "evaluation": "Tendance retail sur les relevés disponibles (31/10 → 05/11) haussière (375 → 359 → 372 → 397 → 400) ; prévisions contractuelles toujours à la hausse (TrendForce +10 à 15 % T4 2026 ; SK hynix au moins jusqu'en 2027). Condition 1 de la règle remplie : le signal ne bascule pas."
+  },
+  "note": "Relevé sur la liste principale ramradar.fr (tri par défaut) ; seules les 3 meilleures offres visibles par catégorie sont retenues. Offre Kingston DDR4 3200 32 Go (1x32) à 128,83 € nettement inférieure au reste du panier (possible erreur marchand ou déstockage) ; sans effet sur la médiane (minimum des 3 offres)."
+}
