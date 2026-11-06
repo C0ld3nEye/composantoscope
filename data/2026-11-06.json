@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-06",
+  "source": "ramradar.fr (comparateur public)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "Corsair DDR5 4800 32Go (2x16Go)",
+        "prix": 380
+      },
+      {
+        "nom": "Patriot DDR5 5600 32Go (2x16Go)",
+        "prix": 504
+      },
+      {
+        "nom": "Corsair DDR5 6000 CL38 32Go (2x16Go)",
+        "prix": 509
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Silicon Power DDR5 5600 16Go (1x16Go)",
+        "prix": 230.99
+      },
+      {
+        "nom": "Silicon Power DDR5 16Go (1x16Go)",
+        "prix": 231.26
+      },
+      {
+        "nom": "PNY DDR5 5600 16Go (1x16Go)",
+        "prix": 232.7
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "Kingston DDR4 3200 32Go (1x32Go)",
+        "prix": 181.22
+      },
+      {
+        "nom": "Corsair DDR4 3200 32Go (4x8Go)",
+        "prix": 217.99
+      },
+      {
+        "nom": "Team Group DDR4 3200 32Go (2x16Go)",
+        "prix": 259.99
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400 16Go (2x8Go)",
+        "prix": 65.04
+      },
+      {
+        "nom": "DDR4 2666 16Go (1x16Go)",
+        "prix": 118
+      },
+      {
+        "nom": "Crucial DDR4 3200 16Go (2x8Go) SO-DIMM",
+        "prix": 123.96
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 504,
+    "DDR5_16Go": 231.26,
+    "DDR4_32Go": 217.99,
+    "DDR4_16Go": 118
+  },
+  "euroParGo": {
+    "DDR5_32Go": 15.75,
+    "DDR5_16Go": 14.45,
+    "DDR4_32Go": 6.81,
+    "DDR4_16Go": 7.38
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 400,
+    "baseline_eur": 126,
+    "variation_vs_veille": 0,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 4,00 fois son prix de septembre 2025."
+  },
+  "signal": {
+    "regle": "besoin réel → acheter maintenant ; pas de besoin urgent → attendre",
+    "evaluation": "Tendance retail sur les relevés disponibles (31/10 → 06/11) toujours haussière puis plate au niveau élevé (derniers indices : 397, 400, 400) ; prévisions contractuelles inchangées à la hausse (TrendForce +10 à 15 % au T4 2026 ; SK hynix au moins jusqu'en 2027). Condition 1 de la règle toujours remplie : le signal ne bascule pas."
+  },
+  "note": "Relevé sur la liste principale ramradar.fr (tri par défaut) ; seules les 3 meilleures offres visibles par catégorie sont retenues. L'offre Corsair DDR5 4800 32 Go à 380,00 € est le minimum du panier DDR5 32 Go, sans effet sur la médiane."
+}
