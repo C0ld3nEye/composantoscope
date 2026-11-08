@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-08",
+  "source": "ramradar.fr (comparateur public)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "Kingston DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 139.24
+      },
+      {
+        "nom": "Patriot DDR5 5600MHz 32Go (2x16Go) DIMM",
+        "prix": 504
+      },
+      {
+        "nom": "Corsair DDR5 5200MHz 32Go (2x16Go) DIMM",
+        "prix": 519.99
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Silicon Power DDR5 5600MHz 16Go (1x16Go) DIMM",
+        "prix": 228.6
+      },
+      {
+        "nom": "Crucial DDR5 16Go (1x16Go) SO-DIMM",
+        "prix": 239.75
+      },
+      {
+        "nom": "Crucial DDR5 5600MHz 16Go (1x16Go) SO-DIMM",
+        "prix": 259.6
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "Kingston DDR4 3200MHz 32Go (1x32Go) DIMM",
+        "prix": 171
+      },
+      {
+        "nom": "Corsair DDR4 3200MHz 32Go (4x8Go) DIMM",
+        "prix": 217.99
+      },
+      {
+        "nom": "Team Group DDR4 3200MHz 32Go (2x16Go) DIMM",
+        "prix": 257.4
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400MHz 16Go (2x8Go) DIMM",
+        "prix": 65.04
+      },
+      {
+        "nom": "Crucial DDR4 2666MHz 16Go (2x8Go) DIMM",
+        "prix": 128.14
+      },
+      {
+        "nom": "DDR4 2666MHz 16Go (1x16Go) DIMM",
+        "prix": 129.64
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 504,
+    "DDR5_16Go": 239.75,
+    "DDR4_32Go": 217.99,
+    "DDR4_16Go": 128.14
+  },
+  "euroParGo": {
+    "DDR5_32Go": 15.75,
+    "DDR5_16Go": 14.98,
+    "DDR4_32Go": 6.81,
+    "DDR4_16Go": 8.01
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 400,
+    "baseline_eur": 126,
+    "variation_vs_veille": 74,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 4,00 fois son prix de septembre 2025."
+  },
+  "signal": {
+    "regle": "besoin réel → acheter maintenant ; pas de besoin urgent → attendre",
+    "evaluation": "Historique encore insuffisant pour une tendance 30 jours (9 relevés, 31/10 → 08/11 ; indices 375, 372, 359, 372, 397, 400, 400, 326, 400) : la tendance sur les relevés disponibles reste haussière ou plate au niveau élevé, pas négative. Prévisions contractuelles toujours à la hausse : TrendForce maintient +10 à 15 % pour la DRAM conventionnelle au T4 2026 (bulletin du 28/10/2026 ; prix contractuels DDR4 à un record, DDR5 16 Gb spot stable à 61,50 $) ; SK hynix annonce une trajectoire haussière au moins jusqu'en 2027. Condition 2 de bascule non remplie : le signal ne bascule pas."
+  },
+  "note": "Relevé sur la liste principale ramradar.fr (tri par défaut) ; seules les 3 meilleures offres visibles par catégorie sont retenues. Offre Kingston DDR5 6000 32 Go (2x16) à 139,24 € nettement inférieure au reste du panier (possible erreur marchand ou déstockage, même profil que l'anomalie Corsair du 03/11) ; sans effet sur la médiane (minimum des 3 offres). Le rebond de l'indice vs la veille (326 → 400) s'explique par la rotation des offres visibles : le Kingston DDR5 6000 32 Go à 410,22 € n'est plus l'offre médiane, remplacée par le Patriot 5600 à 504,00 €."
+}
