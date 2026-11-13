@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-13",
+  "source": "ramradar.fr (comparateur public)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "Kingston DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 149.99
+      },
+      {
+        "nom": "Patriot DDR5 5600MHz 32Go (2x16Go) DIMM",
+        "prix": 506
+      },
+      {
+        "nom": "Corsair DDR5 5200MHz 32Go (2x16Go) DIMM",
+        "prix": 519.99
+      },
+      {
+        "nom": "Patriot DDR5 6000MHz 32Go DIMM",
+        "prix": 546
+      },
+      {
+        "nom": "Corsair DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 549
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Crucial DDR5 16Go (1x16Go) SO-DIMM",
+        "prix": 239.75
+      },
+      {
+        "nom": "Crucial DDR5 5600MHz 16Go (1x16Go) SO-DIMM",
+        "prix": 259.8
+      },
+      {
+        "nom": "Lexar DDR5 16Go (1x16Go) DIMM",
+        "prix": 261.59
+      },
+      {
+        "nom": "Patriot DDR5 6000MHz 16Go (1x16Go) DIMM",
+        "prix": 264
+      },
+      {
+        "nom": "Corsair DDR5 5200MHz 16Go (2x8Go) DIMM",
+        "prix": 269.99
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "Kingston DDR4 3200MHz 32Go (1x32Go) DIMM",
+        "prix": 171
+      },
+      {
+        "nom": "Corsair DDR4 3200MHz 32Go (4x8Go) DIMM",
+        "prix": 217.99
+      },
+      {
+        "nom": "G.Skill DDR4 3200MHz 32Go (2x16Go) DIMM",
+        "prix": 260.52
+      },
+      {
+        "nom": "Patriot DDR4 3200MHz 32Go (1x32Go) DIMM",
+        "prix": 263
+      },
+      {
+        "nom": "Crucial DDR4 3200MHz 32Go (2x16Go) SO-DIMM",
+        "prix": 268.9
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400MHz 16Go (2x8Go) DIMM",
+        "prix": 65.04
+      },
+      {
+        "nom": "DDR4 2666MHz 16Go (1x16Go) DIMM",
+        "prix": 121
+      },
+      {
+        "nom": "Team Group DDR4 3200MHz 16Go (2x8Go) DIMM",
+        "prix": 121.9
+      },
+      {
+        "nom": "Crucial DDR4 3200MHz 16Go (2x8Go) SO-DIMM",
+        "prix": 123.96
+      },
+      {
+        "nom": "Crucial DDR4 2666MHz 16Go (2x8Go) DIMM",
+        "prix": 128.14
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 519.99,
+    "DDR5_16Go": 261.59,
+    "DDR4_32Go": 260.52,
+    "DDR4_16Go": 121.9
+  },
+  "euroParGo": {
+    "DDR5_32Go": 16.25,
+    "DDR5_16Go": 8.17,
+    "DDR4_32Go": 8.14,
+    "DDR4_16Go": 3.81
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 413,
+    "baseline_eur": 126,
+    "variation_vs_veille": 13,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 4,13 fois son prix de septembre 2025."
+  },
+  "notes": "Relevé ramradar.fr (tri par défaut) ; les 5 meilleures offres visibles par catégorie sont retenues. L'offre Kingston DDR5 6000 32 Go à 149,99 € est nettement sous le reste du panier DDR5 32 Go (possible erreur marchand ou déstockage) ; sans effet sur la médiane. Le Kingston DDR4 3200 32 Go (1x32) à 171,00 € est lui aussi un minimum atypique, sans effet sur la médiane DDR4 32 Go."
+}
