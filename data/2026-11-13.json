@@ -99,9 +99,9 @@
   },
   "euroParGo": {
     "DDR5_32Go": 16.25,
-    "DDR5_16Go": 8.17,
+    "DDR5_16Go": 16.35,
     "DDR4_32Go": 8.14,
-    "DDR4_16Go": 3.81
+    "DDR4_16Go": 7.62
   },
   "indice": {
     "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
