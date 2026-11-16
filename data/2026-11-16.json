@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-16",
+  "source": "ramradar.fr (comparateur public)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "Corsair DDR5 4800MHz 32Go (2x16Go) DIMM",
+        "prix": 377
+      },
+      {
+        "nom": "GeIL DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 499
+      },
+      {
+        "nom": "Patriot DDR5 5600MHz 32Go (2x16Go) DIMM",
+        "prix": 506
+      },
+      {
+        "nom": "Patriot DDR5 6000MHz 32Go DIMM",
+        "prix": 519
+      },
+      {
+        "nom": "Corsair DDR5 5200MHz 32Go (2x16Go) DIMM",
+        "prix": 519.99
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Crucial DDR5 16Go (1x16Go) SO-DIMM",
+        "prix": 239.75
+      },
+      {
+        "nom": "Patriot DDR5 6000MHz 16Go (1x16Go) DIMM",
+        "prix": 249
+      },
+      {
+        "nom": "Crucial DDR5 5600MHz 16Go (1x16Go) SO-DIMM",
+        "prix": 259.8
+      },
+      {
+        "nom": "Lexar DDR5 16Go (1x16Go) DIMM",
+        "prix": 263.99
+      },
+      {
+        "nom": "Corsair DDR5 5200MHz 16Go (2x8Go) DIMM",
+        "prix": 269.99
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "Kingston DDR4 3200MHz 32Go (1x32Go) DIMM",
+        "prix": 171
+      },
+      {
+        "nom": "Corsair DDR4 3200MHz 32Go (4x8Go) DIMM",
+        "prix": 217.99
+      },
+      {
+        "nom": "G.Skill DDR4 3200MHz 32Go (2x16Go) DIMM",
+        "prix": 224.9
+      },
+      {
+        "nom": "Patriot DDR4 3200MHz 32Go (1x32Go) DIMM",
+        "prix": 239
+      },
+      {
+        "nom": "G.Skill DDR4 3200MHz 32Go (2x16Go) DIMM (2e offre)",
+        "prix": 260.52
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400MHz 16Go (2x8Go) DIMM",
+        "prix": 65.04
+      },
+      {
+        "nom": "G.Skill DDR4 3200MHz 16Go (2x8Go) DIMM",
+        "prix": 104.9
+      },
+      {
+        "nom": "DDR4 2666MHz 16Go (1x16Go) DIMM",
+        "prix": 121
+      },
+      {
+        "nom": "Crucial DDR4 3200MHz 16Go (2x8Go) SO-DIMM",
+        "prix": 123.96
+      },
+      {
+        "nom": "Crucial DDR4 2666MHz 16Go (2x8Go) DIMM",
+        "prix": 128.14
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 506,
+    "DDR5_16Go": 259.8,
+    "DDR4_32Go": 224.9,
+    "DDR4_16Go": 121
+  },
+  "euroParGo": {
+    "DDR5_32Go": 15.81,
+    "DDR5_16Go": 16.24,
+    "DDR4_32Go": 7.03,
+    "DDR4_16Go": 7.56
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 402,
+    "baseline_eur": 126,
+    "variation_vs_veille": 6,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 4,02 fois son prix de septembre 2025."
+  },
+  "signal": {
+    "regle": "besoin réel → acheter maintenant ; pas de besoin urgent → attendre",
+    "evaluation": "17 relevés (31/10 → 16/11 ; indices 375, 372, 359, 372, 397, 400, 400, 326, 400, 231, 400, 400, 400, 413, 396, 396, 402) : l'indice reste dans le plateau élevé de ~400 (402 du jour, +6 vs la veille, -3 % vs le pic de 413), tendance 30 jours plate/haussière en niveau élevé, pas de tendance négative documentée (la volatilité reflète surtout la rotation des offres visibles chez ramradar.fr). Prévisions contractuelles toujours à la hausse : TrendForce prévoit +10 à 15 % QoQ des prix contractuels DRAM classique au T4 2026 (une lecture récente évoque +13 à 18 % pour la DRAM PC), NAND +15 à 20 % ; SK hynix (contrats long terme couvrant plus de la moitié de sa capacité 2027-2028) annonce une trajectoire haussière au moins jusqu'en 2027. Condition 2 de bascule (tendance 30 jours négative ET prévision contractuelle suivante stable ou baissière) non remplie : le signal ne bascule pas."
+  },
+  "notes": "Relevé ramradar.fr (tri par défaut, page principale) ; les meilleures offres visibles par catégorie sont retenues. Prix relevés le 16/11/2026. La médiane DDR5 32 Go remonte à 506 € (le kit G.Skill DDR5 6000 à 499 € n'est plus visible, remplacé par le Corsair DDR5 5200 à 519,99 €), d'où un indice en hausse à 402. Le panier DDR4 16 Go retrouve 5 références (ajout du Crucial DDR4 2666 à 128,14 €)."
+}
