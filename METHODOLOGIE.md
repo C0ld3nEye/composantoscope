@@ -19,3 +19,4 @@
 
 ## Journal des versions
 - 31/10/2026 : v0 — premier relevé (source ramradar.fr), indice DDR5 32 Go = 375 (base 100 = sept. 2025). Signal : besoin réel → acheter ; sinon → attendre (contrats DRAM prévus +10 à 15 % au T4 2026 selon TrendForce ; SK hynix annonce une hausse au moins jusqu'en 2027).
+- 17/11/2026 : v0 (sans changement de version) — 18e relevé, indice 402 (stable vs la veille). Évaluation de la règle : tendance retail 30 jours plate/haussière en niveau élevé (~400), prévisions contractuelles toujours haussières (TrendForce +10 à 15 % T4 2026 ; SK hynix jusqu'en 2027) → condition 2 de bascule non remplie, le signal « acheter si besoin réel / attendre sinon » est maintenu sans modification de la carte signal.
