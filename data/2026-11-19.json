@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-19",
+  "source": "ramradar.fr (comparateur public, tri prix croissant, ?sort=price_asc, pages 1-19, ~380 références)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "Kingston DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 174.59,
+        "note": "anomalie probable (10 offres affichées, très en dessous du marché)"
+      },
+      {
+        "nom": "G.Skill DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 318
+      },
+      {
+        "nom": "Corsair DDR5 4800MHz 32Go (2x16Go) DIMM",
+        "prix": 377,
+        "note": "nouvelle offre (1 seule), apparue le 19/11, abaisse la médiane"
+      },
+      {
+        "nom": "GeIL DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 499
+      },
+      {
+        "nom": "G.Skill DDR5 6000MHz 32Go (2x16Go) DIMM (autre réf.)",
+        "prix": 499
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Crucial DDR5 16Go (1x16Go) SO-DIMM",
+        "prix": 239.75
+      },
+      {
+        "nom": "Patriot DDR5 6000MHz 16Go (1x16Go) DIMM",
+        "prix": 249
+      },
+      {
+        "nom": "Crucial DDR5 5600MHz 16Go (1x16Go) SO-DIMM",
+        "prix": 259.8
+      },
+      {
+        "nom": "Corsair DDR5 5200MHz 16Go (2x8Go) DIMM",
+        "prix": 269.99
+      },
+      {
+        "nom": "ADATA DDR5 16Go (1x16Go) DIMM",
+        "prix": 274
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "G.Skill DDR4 3200MHz 32Go (2x16Go) DIMM",
+        "prix": 224.9
+      },
+      {
+        "nom": "Patriot DDR4 3200MHz 32Go (1x32Go) DIMM",
+        "prix": 239
+      },
+      {
+        "nom": "DDR4 32Go (2x16Go) DIMM (offre générique)",
+        "prix": 247.88
+      },
+      {
+        "nom": "G.Skill DDR4 3600MHz 32Go (2x16Go) DIMM",
+        "prix": 251
+      },
+      {
+        "nom": "G.Skill DDR4 3000MHz 32Go (2x16Go) DIMM",
+        "prix": 259
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400MHz 16Go (2x8Go) DIMM",
+        "prix": 65.04
+      },
+      {
+        "nom": "G.Skill DDR4 3200MHz 16Go (2x8Go) DIMM",
+        "prix": 104.9
+      },
+      {
+        "nom": "Crucial DDR4 3200MHz 16Go (2x8Go) SO-DIMM",
+        "prix": 123.96
+      },
+      {
+        "nom": "Crucial DDR4 2666MHz 16Go (2x8Go) DIMM",
+        "prix": 128.14
+      },
+      {
+        "nom": "PNY DDR4 3200MHz 16Go (1x16Go) DIMM",
+        "prix": 129.99
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 377,
+    "DDR5_16Go": 259.8,
+    "DDR4_32Go": 247.88,
+    "DDR4_16Go": 123.96
+  },
+  "euroParGo": {
+    "DDR5_32Go": 11.78,
+    "DDR5_16Go": 16.24,
+    "DDR4_32Go": 7.75,
+    "DDR4_16Go": 7.75
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 299,
+    "baseline_eur": 126,
+    "variation_vs_veille": -103,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 2,99 fois son prix de septembre 2025."
+  },
+  "signal": {
+    "regle": "besoin réel → acheter maintenant ; pas de besoin urgent → attendre",
+    "evaluation": "20 relevés (31/10 → 19/11) : fort recul du jour (299 vs 402, -25,6 %) porté par la rotation des offres ramradar : la référence Corsair DDR5 4800 (2x16) à 377 € (1 seule offre) et une seconde réf. G.Skill 6000 à 318 € font leur entrée dans les 5 meilleures offres DDR5 32 Go, tandis que les références à 506-520 € disparaissent du tri. Tendance retail 30 jours hors rotation : plateau élevé ~400, pas de baisse nette documentée. Prévision contractuelle suivante toujours haussière (TrendForce, 18/11/2026 : DRAM généraliste +10 à 15 % QoQ au T4 2026 puis +5-10 %, +3-8 %, 0-5 %, 0-5 % sur 2027, pas de baisse avant fin 2027 ; NAND baissière à partir du T2 2027). Condition 2 de bascule (tendance 30 jours négative ET prévision contractuelle suivante stable ou baissière) non remplie : le signal ne bascule pas."
+  },
+  "notes": "Relevé ramradar.fr, tri prix croissant (?sort=price_asc&page=1..19) ; 5 meilleures offres par catégorie, kits 2x16/1x32 pour les 32 Go. DDR5 32 Go : médiane 506 -> 377 € uniquement par entrée de nouvelles offres (Corsair 377 € en 1 offre, G.Skill 318 € en 2 offres) ; à surveiller demain (risque de disparition, comme l'anomalie Kingston). DDR4 32 Go : 239 -> 247,88 €. DDR5 16 Go et DDR4 16 Go inchangés (259,80 / 123,96 €). L'anomalie basse Kingston 174,59 € persiste en tête du tri."
+}
