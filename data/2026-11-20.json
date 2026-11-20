@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-20",
+  "source": "ramradar.fr (comparateur public, tri prix croissant, ?sort=price_asc&page=1..19, ~3500 références)",
+  "basket": {
+    "DDR5_32Go": [
+      {
+        "nom": "GeIL DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 499
+      },
+      {
+        "nom": "G.Skill DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 499
+      },
+      {
+        "nom": "Patriot DDR5 5600MHz 32Go (2x16Go) DIMM",
+        "prix": 507
+      },
+      {
+        "nom": "Patriot DDR5 6000MHz 32Go (xGo) DIMM",
+        "prix": 519
+      },
+      {
+        "nom": "Team Group DDR5 6000MHz 32Go (2x16Go) DIMM",
+        "prix": 529
+      }
+    ],
+    "DDR5_16Go": [
+      {
+        "nom": "Team Group DDR5 5600MHz 16Go (1x16Go) DIMM",
+        "prix": 241.9
+      },
+      {
+        "nom": "Patriot DDR5 6000MHz 16Go (1x16Go) DIMM",
+        "prix": 249
+      },
+      {
+        "nom": "Corsair DDR5 5200MHz 16Go (2x8Go) DIMM",
+        "prix": 269.99
+      },
+      {
+        "nom": "ADATA DDR5 16Go (1x16Go) DIMM",
+        "prix": 274
+      },
+      {
+        "nom": "Lexar DDR5 16Go (1x16Go) DIMM",
+        "prix": 274
+      }
+    ],
+    "DDR4_32Go": [
+      {
+        "nom": "G.Skill DDR4 3200MHz 32Go (2x16Go) DIMM",
+        "prix": 224.9
+      },
+      {
+        "nom": "Patriot DDR4 3200MHz 32Go (1x32Go) DIMM",
+        "prix": 239
+      },
+      {
+        "nom": "DDR4 MHz 32Go (2x16Go) DIMM (offre générique)",
+        "prix": 247.88
+      },
+      {
+        "nom": "G.Skill DDR4 3600MHz 32Go (2x16Go) DIMM",
+        "prix": 251
+      },
+      {
+        "nom": "G.Skill DDR4 3000MHz 32Go (2x16Go) DIMM",
+        "prix": 259
+      }
+    ],
+    "DDR4_16Go": [
+      {
+        "nom": "Corsair DDR4 2400MHz 16Go (2x8Go) DIMM",
+        "prix": 65.04
+      },
+      {
+        "nom": "G.Skill DDR4 3200MHz 16Go (2x8Go) DIMM",
+        "prix": 104.9
+      },
+      {
+        "nom": "Corsair DDR4 3000MHz 16Go (1x16Go) DIMM",
+        "prix": 116.27
+      },
+      {
+        "nom": "Crucial DDR4 2666MHz 16Go (2x8Go) DIMM",
+        "prix": 128.14
+      },
+      {
+        "nom": "PNY DDR4 3200MHz 16Go (1x16Go) DIMM",
+        "prix": 129.99
+      }
+    ]
+  },
+  "medians": {
+    "DDR5_32Go": 507,
+    "DDR5_16Go": 269.99,
+    "DDR4_32Go": 247.88,
+    "DDR4_16Go": 116.27
+  },
+  "euroParGo": {
+    "DDR5_32Go": 15.84,
+    "DDR5_16Go": 16.87,
+    "DDR4_32Go": 7.75,
+    "DDR4_16Go": 7.27
+  },
+  "indice": {
+    "nom": "Indice RAM DDR5 32 Go (base 100 = septembre 2025)",
+    "valeur": 402,
+    "baseline_eur": 126,
+    "variation_vs_veille": 103,
+    "interpretation": "La médiane d'un kit DDR5 32 Go vaut 4,02 fois son prix de septembre 2025."
+  },
+  "signal": {
+    "regle": "besoin réel → acheter maintenant ; pas de besoin urgent → attendre",
+    "evaluation": "21 relevés (31/10 → 20/11) : retour de l'indice au plateau ~400 (402) après la chute artificielle de la veille (299) provoquée par des offres isolées apparues puis disparues de ramradar (Corsair 4800 à 377 €, G.Skill 6000 à 318 €, anomalie Kingston 174,59 €). Tendance 30 jours sur les relevés hors offres éphémères : plateau élevé ~400, pas de tendance négative documentée. Prévision contractuelle suivante toujours haussière (TrendForce, 18/11/2026 : DRAM généraliste +10 à 15 % QoQ au T4 2026 puis +5-10 %, +3-8 %, 0-5 %, 0-5 % sur 2027, pas de baisse avant fin 2027 ; NAND baissière à partir du T2 2027). Condition 2 de bascule (tendance 30 jours négative ET prévision contractuelle suivante stable ou baissière) non remplie : le signal ne bascule pas, carte signal inchangée."
+  },
+  "notes": "Relevé ramradar.fr, tri prix croissant (?sort=price_asc&page=1..19), 5 meilleures offres par catégorie, kits 2x16/1x32 pour les 32 Go. Les trois offres basses de la veille ont disparu du tri : médiane DDR5 32 Go 507,00 € (vs 377,00 € hier), indice 402 (+103 pts vs hier, retour au niveau du 18/11). DDR4 32 Go : 247,88 € (le Corsair 217,99 en 4x8 reste hors panier 2x16/1x32). DDR5 16 Go : 269,99 €. DDR4 16 Go : 116,27 € (la Crucial SO-DIMM 123,96 € est absente du tri aujourd'hui). Aucune anomalie basse isolée en tête de tri aujourd'hui."
+}
